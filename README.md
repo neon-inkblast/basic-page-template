@@ -9,3 +9,5 @@ Comes with
 - JS `script.js` file.
 - Favicon set up with a default.
 - 3 free-to-use images.
+
+![Project screenshot](./screenshot.png "Screenshot of template file structure in VS Code")
