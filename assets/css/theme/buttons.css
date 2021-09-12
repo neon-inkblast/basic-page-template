@@ -26,11 +26,8 @@ button:hover {
   color: var(--c-background);
 }
 
-.dark .btn-inverse:hover {
-  background-color: var(--c-foreground-lighter);
-}
-.light .btn-inverse:hover {
-  background-color: var(--c-foreground-darker);
+.btn-inverse:hover {
+  background-color: var(--c-foreground-hover);
 }
 
 .btn-primary {

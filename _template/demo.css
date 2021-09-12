@@ -1,0 +1,52 @@
+/* ----------------- Utilities -------------------- */
+.pad {
+  padding: var(--space-1);
+}
+
+.margin {
+  margin: var(--space-1);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* --------------- Demo Page Styles -------------------- */
+nav.flex-row {
+  justify-content: flex-start;
+}
+
+nav h1 {
+  flex: 1 1 auto;
+}
+
+.bottom-line {
+  border-bottom: 2px solid var(--c-border);
+}
+
+.notification-box {
+  border: 1px solid;
+  border-top: 8px solid;
+  border-radius: var(--border-radius);
+  margin-top: var(--space-2);
+}
+
+.color-label,
+.color-input {
+  margin: 4px auto;
+  display: block;
+}

@@ -86,7 +86,7 @@ body {
   --c-foreground: var(--c-foreground-light);
   --c-foreground-lighter: var(--c-foreground-light-lighter);
   --c-foreground-darker: var(--c-foreground-light-darker);
-  --c-foreground-hover: var(--c-foreground-light-lighter);
+  --c-foreground-hover: var(--c-foreground-light-darker);
   --c-border: var(--c-border-light);
   --c-box-shadow: var(--c-box-shadow-light);
   --c-info: var(--c-info-light);
@@ -104,7 +104,7 @@ body {
   --c-foreground: var(--c-foreground-dark);
   --c-foreground-lighter: var(--c-foreground-dark-lighter);
   --c-foreground-darker: var(--c-foreground-dark-darker);
-  --c-foreground-hover: var(--c-foreground-dark-darker);
+  --c-foreground-hover: var(--c-foreground-dark-lighter);
   --c-border: var(--c-border-dark);
   --c-box-shadow: var(--c-box-shadow-dark);
   --c-info: var(--c-info-dark);
