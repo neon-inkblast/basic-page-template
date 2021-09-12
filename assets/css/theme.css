@@ -113,6 +113,7 @@ body {
   --c-error: var(--c-error-dark);
 }
 
+/* ----------------- Contextual -------------------- */
 .info {
   color: var(--c-info);
   border-color: var(--c-info);
