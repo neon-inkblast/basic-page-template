@@ -15,6 +15,7 @@
 
         darkBtn.classList.remove("btn-inverse");
         darkBtn.classList.add("active");
+        
         lightBtn.classList.add("btn-inverse");
         lightBtn.classList.remove("active");
     });
@@ -25,12 +26,15 @@
         
         darkBtn.classList.add("btn-inverse");
         darkBtn.classList.remove("active");
+
         lightBtn.classList.remove("btn-inverse");
         lightBtn.classList.add("active");
     });
 
     // contextual labels
-    const notifyFn = (type) => () => document.querySelector(".notification-box").setAttribute("class", `notification-box ${type}`);
+    const notifyFn = (type) => () => {
+        document.querySelector(".notification-box").setAttribute("class", `notification-box ${type}`);
+    };
 
     infoBtn.addEventListener("click", notifyFn("info"));
     successBtn.addEventListener("click", notifyFn("success"));
@@ -38,7 +42,6 @@
     errorBtn.addEventListener("click", notifyFn("error"));
 
     // color pickers
-
     Array.from(colorPickers).forEach((picker) => {
         picker.addEventListener("change" ,() => {
             document.documentElement.style.setProperty("--c-primary", colorPickers[0].value);

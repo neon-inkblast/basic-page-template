@@ -30,11 +30,11 @@ nav.flex-row {
   justify-content: flex-start;
 }
 
-nav h1 {
+nav header {
   flex: 1 1 auto;
 }
 
-.bottom-line {
+section {
   border-bottom: 2px solid var(--c-border);
 }
 
@@ -42,7 +42,7 @@ nav h1 {
   border: 1px solid;
   border-top: 8px solid;
   border-radius: var(--border-radius);
-  margin-top: var(--space-2);
+  margin: var(--space-3) auto;
 }
 
 .color-label,
