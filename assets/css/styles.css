@@ -148,3 +148,9 @@ nav h1 {
   border-radius: var(--border-radius);
   margin-top: var(--space-2);
 }
+
+.color-label,
+.color-input {
+  margin: 4px auto;
+  display: block;
+}
